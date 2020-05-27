@@ -1,0 +1,12 @@
+pipeline {
+   agent any
+
+   stages {
+      stage('Hello') {
+         steps {
+            echo 'I am in JenkinsFile of flatbuffers'
+            echo 'Hello World'
+         }
+      }
+   }
+}
